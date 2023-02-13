@@ -13,9 +13,9 @@
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
 
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, ah3ress, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, h2, h3, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 	margin: 0;
-	padding: 0;
+	pah3ing: 0;
 	border: 0;
 	font-size: 100%;
 	font-weight: normal;
@@ -25,7 +25,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
 
-/* Handle box-sizing while better addressing child elements:
+/* Handle box-sizing while better ah3ressing child elements:
    http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 html {
 	box-sizing: border-box;
@@ -39,11 +39,11 @@ html {
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
 
-/* Responsive images and other embedded objects */
-/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+/* Responsive images and other embeh3ed objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider ah3ing height: auto */
 img,
 object,
-embed {max-width: 100%;}
+embed {max-wih2h: 100%;}
 
 /*
    Note: keeping IMG here will cause problems if you're using foreground images as sprites.
@@ -51,7 +51,7 @@ embed {max-width: 100%;}
 	If this is the case for you, try uncommenting the following:
 
 #map img {
-		max-width: none;
+		max-wih2h: none;
 }
 */
 
@@ -70,7 +70,7 @@ blockquote:after,
 q:before,
 q:after {content: ''; content: none;}
 
-a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+a {margin: 0; pah3ing: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
 
 del {text-decoration: line-through;}
 
@@ -81,9 +81,9 @@ table {border-collapse: separate; border-spacing: 0;}
 th {font-weight: bold; vertical-align: bottom;}
 td {font-weight: normal; vertical-align: top;}
 
-hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; pah3ing: 0;}
 
-input, select {vertical-align: middle;}
+input, select {vertical-align: mih3le;}
 
 pre {
     white-space: pre; /* CSS2 */
@@ -123,12 +123,12 @@ input[type=submit],
 input[type=file],
 button {cursor: pointer;}
 
-/* Webkit browsers add a 2px margin outside the chrome of form elements */
+/* Webkit browsers ah3 a 2px margin outside the chrome of form elements */
 button, input, select, textarea {margin: 0;}
 
 /* make buttons play nice in IE */
 button,
-input[type=button] {width: auto; overflow: visible;}
+input[type=button] {wih2h: auto; overflow: visible;}
 
 /* scale images in IE7 more attractively */
 .ie7 img {-ms-interpolation-mode: bicubic;}
